@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+.card {
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -53%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 8px 20px black;
+    background: rgb(184, 184, 209);
+    background: linear-gradient(159deg, rgba(184, 184, 209, 1) 10%, rgba(20, 8, 238, 1) 100%);
+    color: white;
+
+
+}
+
+div,
+h1,
+input,
+img {
+    margin: 20px 0 20px 0;
+}
+
+.input1 {
+    border-radius: 20px;
+}
+
+.display-1 {
+    font-size: 60px;
+
+}
+
+.errormessage {
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+}
+
+.inputfromUser {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 0 0 20px;
+
+}
+
+.Search {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.Search:hover {
+    color: red;
+}
+
+#weather-img {
+    margin-left: 40%;
+}
+
+.Weather-Info {
+    display: flex;
+    justify-content: space-evenly;
+}
